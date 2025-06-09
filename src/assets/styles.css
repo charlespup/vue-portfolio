@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(-45deg, #1e1e1e, #222, #111, #000);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.btn-custom {
+  background-color: #f1c40f;
+  color: #121212;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #d4ac0d;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border: 1px solid #f1c40f;
+  box-shadow: 0 0 15px rgba(241, 196, 15, 0.2);
+}
+
+.navbar {
+  background-color: #1c1c1c;
+  border-bottom: 2px solid #f1c40f;
+  border-radius: 12px; 
+  margin-bottom: 24px;
+}
+
+.nav-link {
+  color: #f1c40f !important;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
